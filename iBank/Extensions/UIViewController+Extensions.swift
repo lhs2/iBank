@@ -6,4 +6,11 @@
 //  Copyright © 2020 Henrique. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+extension UIViewController {
+    open override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        view.endEditing(true)
+        super.touchesBegan(touches, with: event)
+    }
+}
