@@ -26,7 +26,6 @@
                                 <rect key="frame" x="92.5" y="577" width="190" height="50"/>
                                 <color key="backgroundColor" red="0.2326027155" green="0.33517539499999999" blue="0.93446683880000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="190" id="w5X-hi-5sh"/>
                                     <constraint firstAttribute="height" constant="50" id="wpj-Tn-xOO"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -38,6 +37,9 @@
                                         <real key="value" value="4"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="performLogin:" destination="6CB-Cc-9Sf" eventType="touchUpInside" id="S5e-KR-zXe"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RjZ-eu-fVO">
                                 <rect key="frame" x="8" y="273.5" width="359" height="120"/>
@@ -85,6 +87,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ns9-7g-lIs"/>
                     </view>
+                    <connections>
+                        <outlet property="passwordTextField" destination="Hm0-if-CBh" id="2Ak-ZF-pd5"/>
+                        <outlet property="userTextField" destination="E52-Eu-7JD" id="NOs-xW-iau"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="80b-YX-oeZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
