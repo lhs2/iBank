@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3509149FD5B4D08F56442556 /* Pods_iBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 777A50C36C2A09C442BB1B87 /* Pods_iBank.framework */; };
+		3F844AF1C2A4A3AC3DAA5251 /* Pods_iBankTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2899A46064E172EBB3D46A37 /* Pods_iBankTests.framework */; };
+		A6593CC6C2CB46479ADCE0F6 /* Pods_iBank_iBankUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34BCC0CA72BAC26ECC2DF2CA /* Pods_iBank_iBankUITests.framework */; };
 		BEC706552469F38D001FA00B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC706542469F38D001FA00B /* AppDelegate.swift */; };
 		BEC706592469F38D001FA00B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC706582469F38D001FA00B /* ViewController.swift */; };
 		BEC7065C2469F38D001FA00B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC7065A2469F38D001FA00B /* Main.storyboard */; };
@@ -48,6 +51,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D857A91CFF9AF6AED86265C /* Pods-iBank-iBankUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBank-iBankUITests.release.xcconfig"; path = "Target Support Files/Pods-iBank-iBankUITests/Pods-iBank-iBankUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2899A46064E172EBB3D46A37 /* Pods_iBankTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iBankTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34BCC0CA72BAC26ECC2DF2CA /* Pods_iBank_iBankUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iBank_iBankUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		777A50C36C2A09C442BB1B87 /* Pods_iBank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iBank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FDB132F09B58971D637C8DA /* Pods-iBankTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBankTests.release.xcconfig"; path = "Target Support Files/Pods-iBankTests/Pods-iBankTests.release.xcconfig"; sourceTree = "<group>"; };
+		919E54E303D7A5D42F826176 /* Pods-iBank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBank.release.xcconfig"; path = "Target Support Files/Pods-iBank/Pods-iBank.release.xcconfig"; sourceTree = "<group>"; };
+		9A0FA606676BE900FEE94318 /* Pods-iBank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBank.debug.xcconfig"; path = "Target Support Files/Pods-iBank/Pods-iBank.debug.xcconfig"; sourceTree = "<group>"; };
 		BEC706512469F38D001FA00B /* iBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC706542469F38D001FA00B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEC706582469F38D001FA00B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +85,8 @@
 		BEC706A5246A00FA001FA00B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		BEC706A7246A19A5001FA00B /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		BEC706A9246A26D1001FA00B /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		C9880607B4D562A18D17B0E8 /* Pods-iBank-iBankUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBank-iBankUITests.debug.xcconfig"; path = "Target Support Files/Pods-iBank-iBankUITests/Pods-iBank-iBankUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F1006E8845E47B4BE454D5D4 /* Pods-iBankTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBankTests.debug.xcconfig"; path = "Target Support Files/Pods-iBankTests/Pods-iBankTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3509149FD5B4D08F56442556 /* Pods_iBank.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F844AF1C2A4A3AC3DAA5251 /* Pods_iBankTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6593CC6C2CB46479ADCE0F6 /* Pods_iBank_iBankUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,8 +120,24 @@
 		20113651C31921A60BE9AAFB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				9A0FA606676BE900FEE94318 /* Pods-iBank.debug.xcconfig */,
+				919E54E303D7A5D42F826176 /* Pods-iBank.release.xcconfig */,
+				C9880607B4D562A18D17B0E8 /* Pods-iBank-iBankUITests.debug.xcconfig */,
+				1D857A91CFF9AF6AED86265C /* Pods-iBank-iBankUITests.release.xcconfig */,
+				F1006E8845E47B4BE454D5D4 /* Pods-iBankTests.debug.xcconfig */,
+				8FDB132F09B58971D637C8DA /* Pods-iBankTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		2C2D163E0AF292EB6C4C51CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				777A50C36C2A09C442BB1B87 /* Pods_iBank.framework */,
+				34BCC0CA72BAC26ECC2DF2CA /* Pods_iBank_iBankUITests.framework */,
+				2899A46064E172EBB3D46A37 /* Pods_iBankTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		BEC706482469F38D001FA00B = {
@@ -117,6 +148,7 @@
 				BEC706752469F38E001FA00B /* iBankUITests */,
 				BEC706522469F38D001FA00B /* Products */,
 				20113651C31921A60BE9AAFB /* Pods */,
+				2C2D163E0AF292EB6C4C51CC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -262,9 +294,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEC7067B2469F38E001FA00B /* Build configuration list for PBXNativeTarget "iBank" */;
 			buildPhases = (
+				1C17288115275E1FC998374A /* [CP] Check Pods Manifest.lock */,
 				BEC7064D2469F38D001FA00B /* Sources */,
 				BEC7064E2469F38D001FA00B /* Frameworks */,
 				BEC7064F2469F38D001FA00B /* Resources */,
+				6A4EA8AA87ECD5530972C6C3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -279,6 +313,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEC7067E2469F38E001FA00B /* Build configuration list for PBXNativeTarget "iBankTests" */;
 			buildPhases = (
+				7B9E71EB4B8675C21E522082 /* [CP] Check Pods Manifest.lock */,
 				BEC706632469F38E001FA00B /* Sources */,
 				BEC706642469F38E001FA00B /* Frameworks */,
 				BEC706652469F38E001FA00B /* Resources */,
@@ -297,9 +332,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEC706812469F38E001FA00B /* Build configuration list for PBXNativeTarget "iBankUITests" */;
 			buildPhases = (
+				ECF44BB3F122AF4E36657E26 /* [CP] Check Pods Manifest.lock */,
 				BEC7066E2469F38E001FA00B /* Sources */,
 				BEC7066F2469F38E001FA00B /* Frameworks */,
 				BEC706702469F38E001FA00B /* Resources */,
+				C88A09D71176BCDAB0A8E90F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -381,6 +418,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C17288115275E1FC998374A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iBank-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A4EA8AA87ECD5530972C6C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iBank/Pods-iBank-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iBank/Pods-iBank-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iBank/Pods-iBank-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B9E71EB4B8675C21E522082 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iBankTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C88A09D71176BCDAB0A8E90F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iBank-iBankUITests/Pods-iBank-iBankUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iBank-iBankUITests/Pods-iBank-iBankUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iBank-iBankUITests/Pods-iBank-iBankUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECF44BB3F122AF4E36657E26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iBank-iBankUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BEC7064D2469F38D001FA00B /* Sources */ = {
@@ -572,6 +712,7 @@
 		};
 		BEC7067C2469F38E001FA00B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A0FA606676BE900FEE94318 /* Pods-iBank.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -589,6 +730,7 @@
 		};
 		BEC7067D2469F38E001FA00B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 919E54E303D7A5D42F826176 /* Pods-iBank.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -606,6 +748,7 @@
 		};
 		BEC7067F2469F38E001FA00B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1006E8845E47B4BE454D5D4 /* Pods-iBankTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -627,6 +770,7 @@
 		};
 		BEC706802469F38E001FA00B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FDB132F09B58971D637C8DA /* Pods-iBankTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -648,6 +792,7 @@
 		};
 		BEC706822469F38E001FA00B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9880607B4D562A18D17B0E8 /* Pods-iBank-iBankUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -667,6 +812,7 @@
 		};
 		BEC706832469F38E001FA00B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D857A91CFF9AF6AED86265C /* Pods-iBank-iBankUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
